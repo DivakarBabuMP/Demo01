@@ -1,0 +1,12 @@
+name: Trial Pipeline
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print message
+        run: echo "Hello DevSecOps World"
